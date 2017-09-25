@@ -26,12 +26,12 @@ Source-Repository head
   Location: https://github.com/haskell-service/monad-logger-katip.git
 
 Library
-  Build-Depends:   base >= 4.9 && < 4.10
+  Build-Depends:   base >= 4.9 && < 4.11
                  , conduit-extra >= 1.1 && < 1.2
                  , exceptions >= 00.8 && < 0.9
                  , fast-logger >= 2.4 && < 2.5
                  , katip >= 0.5 && < 0.6
-                 , mmorph >= 1.0 && < 1.1
+                 , mmorph >= 1.0 && < 1.2
                  , monad-logger >= 0.3 && < 0.4
                  , monad-control >= 1.0 && < 1.1
                  , mtl >= 2.2 && < 2.3
@@ -52,8 +52,8 @@ Test-Suite monad-logger-katip-test
                  , Control.Monad.Logger.Katip.Test
                  , Control.Monad.Logger.Katip.Test.ShouldNotTypecheck
                  , Utils
-  Build-Depends:   aeson >= 1.1 && < 1.2
-                 , base >= 4.9 && < 4.10
+  Build-Depends:   aeson >= 1.1 && < 1.3
+                 , base >= 4.9 && < 4.11
                  , katip >= 0.5 && < 0.6
                  , lifted-async >= 0.9 && < 0.10
                  , monad-logger >= 0.3 && < 0.4
